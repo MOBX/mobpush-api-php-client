@@ -19,7 +19,7 @@
 
 class Push
 {
-    const url = 'http://api.push.mob.com/push/';
+    const url = 'http://api.push.mob.com/';
 
     protected $appkey;
     protected $appsecret;
