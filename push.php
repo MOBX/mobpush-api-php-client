@@ -89,7 +89,7 @@ class Push
         try {
             switch ($cate) {
                 case 1:
-                    $path = 'push';
+                    $path = 'v2/push';
                     $params = self::_push($request);
                     break;
                 case 2:
@@ -102,7 +102,7 @@ class Push
                     break;
 
                 default:
-                    $path = 'push';
+                    $path = 'v2/push';
                     $params = self::_push($request);
                     break;
             }
