@@ -185,28 +185,28 @@ class Push
             $params['iosProduction'] = $request['iosProduction'];
         }
         if (isset($request['title'])) {
-            $params['title'] = $request['title'];
+            $params['iosTitle'] = $request['title'];
         }
         if (isset($request['subtitle'])) {
-            $params['subtitle'] = $request['subtitle'];
+            $params['iosSubtitle'] = $request['subtitle'];
         }
         if (isset($request['sound'])) {
-            $params['sound'] = $request['sound'];
+            $params['iosSound'] = $request['sound'];
         }
         if (isset($request['badge'])) {
-            $params['badge'] = $request['badge'];
+            $params['iosBadge'] = $request['badge'];
         }
         if (isset($request['category'])) {
-            $params['category'] = $request['category'];
+            $params['iosCategory'] = $request['category'];
         }
         if (isset($request['slientPush'])) {
-            $params['slientPush'] = $request['slientPush'];
+            $params['iosSlientPush'] = $request['slientPush'];
         }
         if (isset($request['contentAvailable'])) {
-            $params['contentAvailable'] = $request['contentAvailable'];
+            $params['iosContentAvailable'] = $request['contentAvailable'];
         }
         if (isset($request['mutableContent'])) {
-            $params['mutableContent'] = $request['mutableContent'];
+            $params['iosMutableContent'] = $request['mutableContent'];
         }
         # 设置推送扩展信息
         if (isset($request['unlineTime'])) {
